@@ -12,11 +12,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
-h4,p{
+p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +26,7 @@ h2{
 }
 
 h4{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 li{
@@ -232,7 +232,7 @@ main {
 
 .my-grid-3{
     display: grid;
-    grid-template-columns: 35% 30% 35%;
+    grid-template-columns: 35% 35% 30%;
     margin: auto;
     align-items: center;
     justify-items: center;
@@ -252,5 +252,124 @@ main {
 
 .my-grid-3 p{
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+.my-grid-3 h4{
+    color: brown;
+    font-weight: 500;
+    border-bottom: 3px solid brown;
+    width: fit-content;
+}
+
+.my-absolute-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    width: 1140px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.my-animation-owl{
+    position: absolute;
+    width: 120px;
+    margin-top: -100px;
+    margin-left: -20px;
+}
+
+.my-absolute-div svg{
+    width: 100px;
+    position: relative;
+    
+    fill: brown;
+}
+
+.my-absolute-div .my-svg-arrow-2{
+    transform: rotate(180deg);
+    top: 250px;
+    left: 180px;
+    animation: first-arrow-pro 1000ms linear infinite;
+}
+
+@keyframes first-arrow-pro  {
+   0%{
+    translate: 0px;
+   }
+   50%{
+    translate: 5px;
+   }
+   100%{
+    translate: 0px;
+   }
+}
+
+.my-absolute-div .my-svg-arrow-1{
+    top: 550px;
+    animation: second-arrow-pro 1000ms linear infinite;
+    right: 180px;
+}
+
+@keyframes second-arrow-pro  {
+    0%{
+     translate: 0px;
+    }
+    50%{
+     translate: -5px;
+    }
+    100%{
+     translate: 0px;
+    }
+ }
+
+.img-div{
+    animation: productanime 3000ms linear infinite;
+}
+
+@keyframes productanime {
+    0%{
+transform: rotate(-3deg);
+    }
+    50%{
+        transform: rotate(3deg);
+            }
+    100%{
+        transform: rotate(-3deg);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.some-saml-img-scale{
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    
 }
