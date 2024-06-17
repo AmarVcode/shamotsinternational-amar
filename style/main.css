@@ -500,4 +500,8 @@ main {
     .hero-section{
         padding-top: 20px;
     }
+
+    .my-animation-btn{
+        width: 150px;
+    }
 }
