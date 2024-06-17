@@ -248,7 +248,7 @@ main {
 }
 
 .my-animation-btn {
-    width: 200px;
+    width: 100px;
     margin: auto;
 }
 
@@ -480,11 +480,11 @@ main {
   }
   
   .directional_nav {
-    height: 720px;
+    height: 100px;
     margin: auto;
     max-width: 1240px;
     position: relative;
-    top: -340px;
+    top: -40px;
   }
   
   .previous_btn {
@@ -626,7 +626,7 @@ main {
     }
 
     .my-animation-btn{
-        width: 150px;
+        width: 80px;
 
     }
 
@@ -640,4 +640,9 @@ main {
         position: relative;
         top:-350px;
     }
+
+    .slide_viewer {
+        height: 1000px;
+
+      }
 }

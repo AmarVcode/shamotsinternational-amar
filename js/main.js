@@ -1,7 +1,7 @@
 
 var animation = lottie.loadAnimation({
     container: document.getElementById('lottie-container'),
-    renderer: 'canvas',
+    renderer: 'svg',
     loop: true,
     autoplay: true,
     path: 'json/go-btn.json',
@@ -15,7 +15,7 @@ var animation = lottie.loadAnimation({
 
 var animation2 = lottie.loadAnimation({
     container: document.getElementById('lottie-container-1'),
-    renderer: 'canvas',
+    renderer: 'svg',
     loop: true,
     autoplay: true,
     path: 'json/go-btn.json',
