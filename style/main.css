@@ -429,6 +429,10 @@ main {
     margin: 0 auto;
     max-width: 1140px;
   }
+
+  .slider:hover{
+    animation-play-state: paused;
+  }
   
   .slide_viewer {
     height: 700px;
@@ -466,11 +470,11 @@ main {
         color: #474544;
         font-size: 42px;
         margin: 0 0.175em;
-        -webkit-transition: all 5s ease-in-out;
-        -moz-transition: all 5s ease-in-out;
-        -ms-transition: all 5s ease-in-out;
-        -o-transition: all 5s ease-in-out;
-        transition: all 5s ease-in-out;
+        -webkit-transition: all 3s ease-in-out;
+        -moz-transition: all 3s ease-in-out;
+        -ms-transition: all 3s ease-in-out;
+        -o-transition: all 3s ease-in-out;
+        transition: all 3s ease-in-out;
     text-decoration: none;
         }
         
@@ -507,11 +511,11 @@ main {
     cursor: pointer;
     height: 65px;
     opacity: 0.5;
-    -webkit-transition: opacity 5s ease-in-out;
-    -moz-transition: opacity 5s ease-in-out;
-    -ms-transition: opacity 5s ease-in-out;
-    -o-transition: opacity 5s ease-in-out;
-    transition: opacity 5s ease-in-out;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
     width: 65px;
   }
   
