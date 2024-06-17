@@ -51,6 +51,10 @@ li {
     display: none;
 }
 
+.menu-mobile{
+    display: none;
+}
+
 .custom-btn {
     width: 130px;
     height: 40px;
@@ -415,6 +419,121 @@ main {
     stroke: black;
     
 }
+
+
+
+
+/* slder css */
+
+.slider {
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+  
+  .slide_viewer {
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    }
+    
+    .slide:first-child {
+        display: block;
+        }
+            
+        
+  
+  .slide_buttons {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    }
+    
+    a.slide_btn {
+        color: #474544;
+        font-size: 42px;
+        margin: 0 0.175em;
+        -webkit-transition: all 5s ease-in-out;
+        -moz-transition: all 5s ease-in-out;
+        -ms-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
+        transition: all 5s ease-in-out;
+    text-decoration: none;
+        }
+        
+  .slide_btn.active, .slide_btn:hover {
+    color: #428CC6;
+    cursor: pointer;
+  }
+  
+  .directional_nav {
+    height: 720px;
+    margin: auto;
+    max-width: 1240px;
+    position: relative;
+    top: -340px;
+  }
+  
+  .previous_btn {
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+  }
+  
+  .next_btn {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 100px;
+    top: 0;
+  }
+  
+  .previous_btn, .next_btn {
+    cursor: pointer;
+    height: 65px;
+    opacity: 0.5;
+    -webkit-transition: opacity 5s ease-in-out;
+    -moz-transition: opacity 5s ease-in-out;
+    -ms-transition: opacity 5s ease-in-out;
+    -o-transition: opacity 5s ease-in-out;
+    transition: opacity 5s ease-in-out;
+    width: 65px;
+  }
+  
+  .previous_btn:hover, .next_btn:hover {
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .previous_btn {
+      left: 50px;
+    }
+    .next_btn {
+      right: 50px;
+    }
+  }
+
+
+
+
+
+
+
 
 
 
