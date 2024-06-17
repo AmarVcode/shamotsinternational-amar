@@ -503,5 +503,17 @@ main {
 
     .my-animation-btn{
         width: 150px;
+
+    }
+
+    .my-grid-3 > div:nth-child(1){
+        position: relative;
+        bottom: -350px;
+        z-index: 100;
+    }
+
+    .hero-section .img-div{
+        position: relative;
+        top:-350px;
     }
 }
