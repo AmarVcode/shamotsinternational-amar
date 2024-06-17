@@ -12,24 +12,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Playfair Display', serif;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h4{
+h4 {
     font-size: 1.2rem;
 }
 
-li{
+li {
     font-size: 0.8rem;
     padding: 5px;
     list-style: none;
@@ -40,6 +45,10 @@ li{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.mobile-header{
+    display: none;
 }
 
 .custom-btn {
@@ -63,6 +72,19 @@ li{
     text-decoration: none;
     text-align: center;
 }
+
+
+/* 5 */
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: var(--primary-color);
+    background: linear-gradient(0deg, var(--primary-color) 0%, var(--primary-color) 100%);
+}
+
 
 
 /* 5 */
@@ -199,38 +221,40 @@ main {
     color: transparent;
     background: linear-gradient(90deg, var(--primary-color), var(--second-color));
     background-clip: text;
-    -webkit-background-clip: text; /* For Safari and Chrome */
-    -webkit-text-fill-color: transparent; /* For Safari and Chrome */
-  }
+    -webkit-background-clip: text;
+    /* For Safari and Chrome */
+    -webkit-text-fill-color: transparent;
+    /* For Safari and Chrome */
+}
 
-  .hero-section h2{
+.hero-section h2 {
     text-align: center;
-  }
-  
-  .hero-section p{
+}
+
+.hero-section p {
     text-align: center;
     max-width: 500px;
     padding-top: 1em;
     line-height: 1.5rem;
     margin: auto;
-  }
+}
 
-  .hero-section{
+.hero-section {
     padding-top: 50px;
-  }
+}
 
-  .my-animation-btn{
+.my-animation-btn {
     width: 200px;
     margin: auto;
 }
 
-.hero-section a{
+.hero-section a {
     width: fit-content;
     margin: auto;
     display: block;
 }
 
-.my-grid-3{
+.my-grid-3 {
     display: grid;
     grid-template-columns: 35% 35% 30%;
     margin: auto;
@@ -238,31 +262,31 @@ main {
     justify-items: center;
 }
 
-.my-grid-3 img{
+.my-grid-3 img {
     width: 100%;
 
 }
 
-.my-grid-3 p svg{
+.my-grid-3 p svg {
     height: 1.8rem;
     padding: 6px;
     fill: green;
 }
 
 
-.my-grid-3 p{
+.my-grid-3 p {
     text-align: left;
     font-size: 1rem;
 }
 
-.my-grid-3 h4{
+.my-grid-3 h4 {
     color: brown;
     font-weight: 500;
     border-bottom: 3px solid brown;
     width: fit-content;
 }
 
-.my-absolute-div{
+.my-absolute-div {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -277,69 +301,75 @@ main {
 
 
 
-.my-animation-owl{
+.my-animation-owl {
     position: absolute;
     width: 120px;
     margin-top: -100px;
     margin-left: -20px;
 }
 
-.my-absolute-div svg{
+.my-absolute-div svg {
     width: 100px;
     position: relative;
-    
+
     fill: brown;
 }
 
-.my-absolute-div .my-svg-arrow-2{
+.my-absolute-div .my-svg-arrow-2 {
     transform: rotate(180deg);
     top: 250px;
     left: 180px;
     animation: first-arrow-pro 1000ms linear infinite;
 }
 
-@keyframes first-arrow-pro  {
-   0%{
-    translate: 0px;
-   }
-   50%{
-    translate: 5px;
-   }
-   100%{
-    translate: 0px;
-   }
+@keyframes first-arrow-pro {
+    0% {
+        translate: 0px;
+    }
+
+    50% {
+        translate: 5px;
+    }
+
+    100% {
+        translate: 0px;
+    }
 }
 
-.my-absolute-div .my-svg-arrow-1{
+.my-absolute-div .my-svg-arrow-1 {
     top: 550px;
     animation: second-arrow-pro 1000ms linear infinite;
     right: 180px;
 }
 
-@keyframes second-arrow-pro  {
-    0%{
-     translate: 0px;
+@keyframes second-arrow-pro {
+    0% {
+        translate: 0px;
     }
-    50%{
-     translate: -5px;
-    }
-    100%{
-     translate: 0px;
-    }
- }
 
-.img-div{
+    50% {
+        translate: -5px;
+    }
+
+    100% {
+        translate: 0px;
+    }
+}
+
+.img-div {
     animation: productanime 3000ms linear infinite;
 }
 
 @keyframes productanime {
-    0%{
-transform: rotate(-3deg);
+    0% {
+        transform: rotate(-3deg);
     }
-    50%{
+
+    50% {
         transform: rotate(3deg);
-            }
-    100%{
+    }
+
+    100% {
         transform: rotate(-3deg);
 
     }
@@ -354,7 +384,7 @@ transform: rotate(-3deg);
 
 
 
-.some-saml-img-scale{
+.some-saml-img-scale {
     transform: scale(0.8);
 }
 
@@ -368,8 +398,99 @@ transform: rotate(-3deg);
 
 
 
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    background: white;
+}
 
-
-@media screen and (max-width:900px){
+.icon {
+    stroke: black;
     
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+    .desk-header {
+        display: none;
+    }
+
+    .mobile-header{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .box{
+        width: 4rem;
+        cursor: pointer;
+        float: right;
+        position: relative;
+        top: 30px;
+    }
+
+    .menu-mobile{
+        display: grid;
+        grid-template-columns: 100%;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        transform: scale(1,0);
+        transform-origin: top;
+        transition: 300ms;
+    }
+
+
+    .minimenu{
+        display: grid;
+        grid-template-columns: 100%;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        transform: scale(1,0);
+        transform-origin: top;
+        transition: 300ms;
+        top: 100px;
+    }
+
+
+    .menu-mobile a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .hero-section p{
+        font-size: 0.9rem;
+    }
+
+    .my-grid-3{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        transform: scale(0.8);
+    }
+
+    .my-absolute-div{
+        display: none;
+    }
 }
