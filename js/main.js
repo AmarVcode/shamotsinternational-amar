@@ -253,11 +253,11 @@ let mymenu = document.getElementById("navbar-mobile");
 
 function showmymenu(){
     if(menushow === false){
-    mymenu.style.transform="scale(1,1)";
+    mymenu.style.height="300px";
     menushow = true;
     }
     else{
-    mymenu.style.transform="scale(1,0)";
+    mymenu.style.height="0px";
     menushow = false;
 
     }

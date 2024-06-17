@@ -449,12 +449,12 @@ main {
     .menu-mobile{
         display: grid;
         grid-template-columns: 100%;
-        position: absolute;
         width: 100%;
         background-color: white;
-        transform: scale(1,0);
+        overflow: hidden;
+        height: 0px;
         transform-origin: top;
-        transition: 300ms;
+        transition: 300ms height;
     }
 
 
@@ -463,11 +463,15 @@ main {
         grid-template-columns: 100%;
         position: absolute;
         width: 100%;
-        background-color: white;
         transform: scale(1,0);
         transform-origin: top;
         transition: 300ms;
-        top: 100px;
+        top: 200px;
+    background: var(--primary-color);
+    }
+
+    .minimenu a{
+        color: white !important;
     }
 
 
@@ -477,6 +481,7 @@ main {
         color: black;
         padding: 1em;
         text-align: center;
+        
     }
 
     .hero-section p{
