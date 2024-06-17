@@ -493,4 +493,11 @@ main {
     .my-absolute-div{
         display: none;
     }
+    .hero-section h2{
+        font-size: 1.2rem;
+    }
+
+    .hero-section{
+        padding-top: 20px;
+    }
 }
