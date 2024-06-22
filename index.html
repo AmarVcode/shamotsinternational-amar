@@ -7,7 +7,10 @@
     <title>Shamots International - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/dist/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -73,10 +76,10 @@
         <div class="menu-mobile" id="navbar-mobile">
             <a href="#">About</a>
             <a href="#" onclick="showminimenu()">Products <svg id="my-arrow-nav" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512">
-                <path
-                    d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
-            </svg></a>
+                    viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></a>
             <div class="minimenu" id="mini-menu">
                 <a href="#">Printing & Cutting Machines</a>
                 <a href="#">Braiding</a>
@@ -94,245 +97,677 @@
 
     <main>
 
-<!-- slider code here -->
+        <!-- slider code here -->
 
-<div class="slider">
-    <div class="slide_viewer">
-      <div class="slide_group">
-        <div class="slide">
-            <div class="hero-section">
-                <div class="my-absolute-div">
-                    <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-    
-                        <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" stroke="none">
-                            <path
-                                d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+        <div class="slider">
+            <div class="slide_viewer">
+                <div class="slide_group">
+                    <div class="slide">
+                        <div class="hero-section">
+                            <div class="my-absolute-div">
+                                <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                                <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2>
+                                    Label <span class="my-gradient">Printing</span> & <span
+                                        class="my-gradient">Cutting</span>
+                                    Machines
+                                </h2>
+                                <p>
+                                    We have a Complete range of Printing & Cutting Machines that are suitable for Labels
+                                    used in Garment
+                                    Industry.
+                                </p>
+                                <a href="#">
+                                    <div class="my-animation-btn" id="lottie-container"></div>
+                                </a>
+                            </div>
+                            <div class="my-grid-3">
+                                <div>
+                                    <div class="my-animation-owl" id="lottie-container-2"></div>
+
+                                    <h4>
+                                        Features & Capabilities
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>High Precision Printing and Cutting</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatility in Material Handling</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Integration with Production Systems</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Cutting-Edge Technology</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Scalability and Adaptability</p>
+
+                                </div>
+                                <div class="img-div">
+                                    <img src="./images/product/label-printing.webp" alt="Printing Machine">
+
+                                </div>
+                                <div>
+                                    <h4>
+                                        Benefits
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Improved Production Efficiency</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Assurance of High-Quality Labels</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Customization Options for Branding</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Cost Efficiency and Resource Optimization</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Compliance and Sustainability</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="hero-section">
+                            <div class="my-absolute-div">
+                                <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                                <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2>
+                                    <span class="my-gradient">Crochet</span> Knitting <span
+                                        class="my-gradient">Machines</span>
+
+                                </h2>
+                                <p>
+                                    Suitable to Manufacture Specialized Narrow Fabric Elastics & Laces used in Garment
+                                    Industry.
+                                </p>
+                                <a href="#">
+                                    <div class="my-animation-btn" id="lottie-container-1"></div>
+                                </a>
+                            </div>
+                            <div class="my-grid-3">
+                                <div>
+                                    <div class="my-animation-owl" id="lottie-container-21"></div>
+
+                                    <h4>
+                                        Features & Capabilities
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>High Precision Crochet Knitting</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatile Material Compatibility</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Customizable Output</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Efficient Production Rates</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Durable Construction</p>
+
+                                </div>
+                                <div class="img-div">
+                                    <img src="./images/product/crocet-knitting.webp" alt="Printing Machine">
+
+                                </div>
+                                <div>
+                                    <h4>
+                                        Benefits
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Enhanced Product Quality</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Cost Efficiency</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Customization Options</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Accelerated Time-to-Market</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Sustainable Manufacturing</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="hero-section">
+                            <div class="my-absolute-div">
+                                <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                                <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2>
+                                    <span class="my-gradient">Needle </span>Loom <span
+                                        class="my-gradient">Weaving</span>Machines
+
+                                </h2>
+                                <p>
+                                    Suitable to Manufacture Specialized Narrow Fabric Textile ranging from 8mm up to
+                                    300mm width. Suitable to Manufacture Elastics, Tapes for Garments, Webbings for
+                                    Luggage & Shoes Industry.
+                                </p>
+                                <a href="#">
+                                    <div class="my-animation-btn" id="lottie-container-32"></div>
+                                </a>
+                            </div>
+                            <div class="my-grid-3">
+                                <div>
+                                    <div class="my-animation-owl" id="lottie-container-22"></div>
+
+                                    <h4>
+                                        Features & Capabilities
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Multiple Weaving Heads</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Electronic Control Systems</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>High-Speed Weaving</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>EVersatile Material Handling</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Automatic Warp and Weft Tension Control</p>
+
+                                </div>
+                                <div class="img-div">
+                                    <img src="./images/product/weaving-machine.webp" alt="Printing Machine">
+
+                                </div>
+                                <div>
+                                    <h4>
+                                        Benefits
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Increased Production Efficiency</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Enhanced Fabric Quality</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatility in Applications</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Cost-Effective Operation</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Customization and Flexibility</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="hero-section">
+                            <div class="my-absolute-div">
+                                <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                                <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2>
+                                    <span class="my-gradient">Wraping </span>Machines
+
+                                </h2>
+                                <p>
+                                    We Manufacture Pre-preparatory machines that are required in the Narrow Fabric
+                                    Industry. We Specialize in Customizing machines as per Customer's requirements.
+                                </p>
+                                <a href="#">
+                                    <div class="my-animation-btn" id="lottie-container-3"></div>
+                                </a>
+                            </div>
+                            <div class="my-grid-3">
+                                <div>
+                                    <div class="my-animation-owl" id="lottie-container-23"></div>
+
+                                    <h4>
+                                        Features & Capabilities
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>High-Speed Operation</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Precision Tension Control</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Electronic Monitoring and Control</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatility in Yarn Types</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Large Capacity Creel</p>
+
+                                </div>
+                                <div class="img-div">
+                                    <img src="./images/product/wraping-machine.webp" alt="Printing Machine">
+
+                                </div>
+                                <div>
+                                    <h4>
+                                        Benefits
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Enhanced Efficiency</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Improved Fabric Quality</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Reduced Labor Costs</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatile Application</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Consistent Performance</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="hero-section">
+                            <div class="my-absolute-div">
+                                <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                                <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
+
+                                    <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path
+                                            d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <h2>
+                                    <span class="my-gradient">Advanced </span>Industrial <span
+                                        class="my-gradient">Braiding</span>Machines
+
+                                </h2>
+                                <p>
+                                    High speed Braiding Machine ranging from 8 spindles up to 96 spindles used to
+                                    manufacture Braided Ropes & Cords that are suitable for Industries like Textiles ,
+                                    Wire & Cable, Glass fibre, Shipping, etc.
+
+                                </p>
+                                <a href="#">
+                                    <div class="my-animation-btn" id="lottie-container-4"></div>
+                                </a>
+                            </div>
+                            <div class="my-grid-3">
+                                <div>
+                                    <div class="my-animation-owl" id="lottie-container-24"></div>
+
+                                    <h4>
+                                        Features & Capabilities
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>High-Speed Braiding Capability</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Multiple Carrier Systems</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Precision Control</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatile Braiding Configurations</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Automated Operation</p>
+
+                                </div>
+                                <div class="img-div">
+                                    <img src="./images/product/braiding.webp" alt="Printing Machine">
+
+                                </div>
+                                <div>
+                                    <h4>
+                                        Benefits
+                                    </h4>
+
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Enhanced Product Quality</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Increased Production Efficiency</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Versatility in Applications</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Cost Savings</p>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                                        </svg>Customization and Flexibility</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!-- End // .slider -->
+
+        <div class="slide_buttons">
+        </div>
+
+        <div class="directional_nav">
+            <div class="previous_btn" title="Previous">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+                    <g>
+                        <g>
+                            <path fill="#474544"
+                                d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+              c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z" />
+                            <path fill="#474544"
+                                d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z" />
                         </g>
-                    </svg>
-                    <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-    
-                        <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" stroke="none">
-                            <path
-                                d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
+                    </g>
+                </svg>
+            </div>
+            <div class="next_btn" title="Next">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+                    <g>
+                        <g>
+                            <path fill="#474544"
+                                d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z" />
+                            <path fill="#474544"
+                                d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z" />
                         </g>
-                    </svg>
+                    </g>
+                </svg>
+            </div>
+        </div><!-- End // .directional_nav -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+
+
+    </main>
+
+    <h2 class="my_heading_main">
+        <span class="my-gradient">Applications</span> We Specialize In
+    </h2>
+
+    <main id="my_section_home_2">
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/first-aid-kit-3.png" alt=""></div>
+                <div class="content">
+                    <h3>Medical</h3>
                 </div>
-                <div>
-                    <h2>
-                        Label <span class="my-gradient">Printing</span> & <span class="my-gradient">Cutting</span>
-                        Machines
-                    </h2>
-                    <p>
-                        We have a Complete range of Printing & Cutting Machines that are suitable for Labels used in Garment
-                        Industry.
-                    </p>
-                    <a href="#">
-                        <div class="my-animation-btn" id="lottie-container"></div>
-                    </a>
-                </div>
-                <div class="my-grid-3">
-                    <div>
-                        <div class="my-animation-owl" id="lottie-container-2"></div>
-    
-                        <h4>
-                            Features & Capabilities
-                        </h4>
-    
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>High Precision Printing and Cutting</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Versatility in Material Handling</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Integration with Production Systems</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Cutting-Edge Technology</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Scalability and Adaptability</p>
-    
-                    </div>
-                    <div class="img-div">
-                        <img src="./images/product/label-printing.webp" alt="Printing Machine">
-    
-                    </div>
-                    <div>
-                        <h4>
-                            Benefits
-                        </h4>
-    
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Improved Production Efficiency</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Assurance of High-Quality Labels</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Customization Options for Branding</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Cost Efficiency and Resource Optimization</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Compliance and Sustainability</p>
-    
-                    </div>
-                </div>
-                
             </div>
         </div>
-        <div class="slide">
-            <div class="hero-section">
-                <div class="my-absolute-div">
-                    <svg class="my-svg-arrow-1" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-    
-                        <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" stroke="none">
-                            <path
-                                d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
-                        </g>
-                    </svg>
-                    <svg class="my-svg-arrow-2" version="1.0" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 711.000000 200.000000" preserveAspectRatio="xMidYMid meet">
-    
-                        <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)" stroke="none">
-                            <path
-                                d="M6885 1960 c-281 -51 -769 -138 -1155 -207 -173 -30 -317 -57 -319 -59 -5 -5 29 -48 183 -229 74 -88 136 -163 136 -166 0 -10 -181 -147 -300 -226 -497 -332 -1028 -524 -1670 -605 -164 -20 -736 -17 -920 6 -596 73 -1158 232 -1737 492 -319 142 -670 333 -924 500 -74 49 -138 91 -144 93 -5 2 24 -25 65 -60 551 -474 1317 -923 2015 -1179 402 -148 840 -252 1255 -296 203 -22 664 -25 850 -6 223 23 505 72 655 114 447 123 828 285 1197 507 76 45 142 81 147 79 5 -1 53 -55 106 -118 53 -63 119 -141 146 -173 30 -35 51 -53 54 -45 2 7 22 63 44 123 22 61 150 414 284 785 135 371 248 683 252 693 4 9 3 17 -1 16 -5 -1 -103 -18 -219 -39z" />
-                        </g>
-                    </svg>
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/shoes.png" alt=""></div>
+                <div class="content">
+                    <h3>Sports</h3>
                 </div>
-                <div>
-                    <h2>
-                        <span class="my-gradient">Crochet</span> Knitting <span class="my-gradient">Machines</span>
-                          
-                    </h2>
-                    <p>
-                        Suitable to Manufacture Specialized Narrow Fabric Elastics & Laces used in Garment Industry.
-                    </p>
-                    <a href="#">
-                        <div class="my-animation-btn" id="lottie-container-1"></div>
-                    </a>
-                </div>
-                <div class="my-grid-3">
-                    <div>
-                        <div class="my-animation-owl" id="lottie-container-21"></div>
-    
-                        <h4>
-                            Features & Capabilities
-                        </h4>
-    
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>High Precision Crochet Knitting</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Versatile Material Compatibility</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Customizable Output</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Efficient Production Rates</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Durable Construction</p>
-    
-                    </div>
-                    <div class="img-div">
-                        <img src="./images/product/crocet-knitting.webp" alt="Printing Machine">
-    
-                    </div>
-                    <div>
-                        <h4>
-                            Benefits
-                        </h4>
-    
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Enhanced Product Quality/p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Cost Efficiency</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Customization Options</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Accelerated Time-to-Market:</p>
-                        <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path
-                                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
-                            </svg>Sustainable Manufacturing</p>
-    
-                    </div>
-                </div>
-                
             </div>
         </div>
-        
-      </div>
-    </div>
-  </div><!-- End // .slider -->
-  
-  <div class="slide_buttons">
-  </div>
-  
-  <div class="directional_nav">
-    <div class="previous_btn" title="Previous">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
-        <g>
-          <g>
-            <path fill="#474544" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
-              c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
-            <path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
-          </g>
-        </g>
-      </svg>
-    </div>
-    <div class="next_btn" title="Next">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
-        <g>
-          <g>
-            <path fill="#474544" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
-            <path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
-          </g>
-        </g>
-      </svg>
-    </div>
-  </div><!-- End // .directional_nav -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/couch-2.png" alt=""></div>
+                <div class="content">
+                    <h3>Home</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/car-parts-2.png" alt=""></div>
+                <div class="content">
+                    <h3>Automotive</h3>
+                </div>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/shirt-1.png" alt=""></div>
+                <div class="content">
+                    <h3>Garment</h3>
+                </div>
+            </div>
+        </div>
 
-
-       
+        <div class="container">
+            <div class="box">
+                <div class="icon"><img src="./images/homeIcons/box-1-1.png" alt=""></div>
+                <div class="content">
+                    <h3>Technical</h3>
+                </div>
+            </div>
+        </div>
     </main>
 
 
+
+    <main id="my_section_home_3">
+        <!-- Testimonial Section -->
+	<section class="testimonial-section">
+		<div class="large-container">
+			<div class="sec-title">
+				<span class="title">Testimonial</span>
+				<h2>What Our core client say ?</h2>
+			</div>
+
+			<div class="testimonial-carousel owl-carousel owl-theme">
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Testimonial Block -->
+				<div class="testimonial-block">
+					<div class="inner-box">
+						<div class="text">Why is this important? Because clients want to know the businesses they depend on for advice, are well managed in their own right.  Not only that but this event gives you the chance to give your back-office team</div>
+						<div class="info-box">
+							<div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+							<h4 class="name">Mahfuz Riad</h4>
+							<span class="designation">Ui Designer & CEO</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="thumb-layer paroller">
+				<figure class="image"><img src="http://t.commonsupport.com/adro/images/resource/user-thumbs.png" alt=""></figure>
+			</div>
+		</div>
+	</section>
+	<!--End Testimonial Section -->
+
+    </main>
 
 
 

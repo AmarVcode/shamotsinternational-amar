@@ -26,6 +26,45 @@ var animation2 = lottie.loadAnimation({
     }
 });
 
+var animation3 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-32'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/go-btn.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
+
+var animation4 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-3'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/go-btn.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
+
+
+var animation5 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-4'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/go-btn.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
 
 
 
@@ -45,7 +84,7 @@ var animation21 = lottie.loadAnimation({
 // Set the playback speed to 0.5 (half speed)
 animation21.setSpeed(0.5);
 
-var animation21 = lottie.loadAnimation({
+var animation22 = lottie.loadAnimation({
     container: document.getElementById('lottie-container-21'),
     renderer: 'svg',
     loop: true,
@@ -59,10 +98,56 @@ var animation21 = lottie.loadAnimation({
 });
 
 // Set the playback speed to 0.5 (half speed)
-animation21.setSpeed(0.5);
+animation22.setSpeed(0.5);
+
+var animation23 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-22'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/owl.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
+
+// Set the playback speed to 0.5 (half speed)
+animation23.setSpeed(0.5);
 
 
+var animation24 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-23'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/owl.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
 
+// Set the playback speed to 0.5 (half speed)
+animation24.setSpeed(0.5);
+
+var animation25 = lottie.loadAnimation({
+    container: document.getElementById('lottie-container-24'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/owl.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
+
+// Set the playback speed to 0.5 (half speed)
+animation25.setSpeed(0.5);
 
 
 
@@ -384,3 +469,45 @@ $('.slider').each(function() {
     
     advance();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    const carousel = document.querySelector('.testimonial-carousel');
+    const items = document.querySelectorAll('.testimonial-item');
+    const next = document.querySelector('.arrow-right');
+    const prev = document.querySelector('.arrow-left');
+    let index = 0;
+
+    function showSlide(i) {
+        carousel.style.transform = `translateX(${-i * 100}%)`;
+    }
+
+    next.addEventListener('click', () => {
+        index = (index + 1) % items.length;
+        showSlide(index);
+    });
+
+    prev.addEventListener('click', () => {
+        index = (index - 1 + items.length) % items.length;
+        showSlide(index);
+    });
+
+    setInterval(() => {
+        index = (index + 1) % items.length;
+        showSlide(index);
+    }, 7000);
+});
+
