@@ -511,3 +511,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 7000);
 });
 
+
+
+
+//code for animate about us section
+
+var aboutAnimation = lottie.loadAnimation({
+    container: document.getElementById('myAboutAnimation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'json/aboutAnimation.json',
+    rendererSettings: {
+        preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
+        progressiveLoad: true,
+        hideOnTransparent: true
+    }
+});
