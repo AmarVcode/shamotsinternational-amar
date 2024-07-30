@@ -3,135 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Request a Callback</title>
+    <title>Footer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
+        footer {
+            background-color: #f8f9fa;
+            color: #212529;
         }
-        .cta-container-1234 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #fff;
-            padding: 40px;
-            border-radius: 15px;
-            max-width: 800px;
-            margin: 40px auto;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            transform: scale(0.95);
+        .footer-logo {
+            max-width: 200px;
+            margin-bottom: 1rem;
         }
-        .cta-text-5678 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 20px;
+        .footer-logo img {
+            width: 100%;
+            height: auto;
         }
-        .cta-text-5678 h2 {
-            margin: 0;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-        .cta-text-5678 p {
-            font-size: 1rem;
-            margin-top: 10px;
-        }
-        .cta-form-9101 {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            padding: 20px;
-        }
-        .cta-form-9101 input {
-            padding: 12px;
-            border: none;
+        .cta-input {
             border-radius: 25px;
-            font-size: 1rem;
-            outline: none;
+            padding: 10px;
         }
-        .cta-form-9101 button {
-            background: #fff;
-            color: #2575fc;
-            border: none;
+        .cta-button {
             border-radius: 25px;
-            padding: 12px 25px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .cta-form-9101 button:hover {
-            background: #2575fc;
+            padding: 10px 20px;
+            background-color: #007bff;
             color: #fff;
         }
-        .cta-contact-1122 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-        }
-        .cta-contact-1122 p {
-            margin: 10px 0;
-            font-size: 1rem;
+        .cta-button:hover {
+            background-color: #0056b3;
             color: #fff;
         }
-        .cta-contact-1122 .contact-info {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        .cta-contact-1122 .contact-info span {
-            display: flex;
-            align-items: center;
-            font-size: 1rem;
-            color: #fff;
-        }
-        .cta-contact-1122 .contact-info span::before {
-            content: '';
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            margin-right: 10px;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        .cta-contact-1122 .phone::before {
-            background-image: url('phone-icon.png'); /* Replace with a phone icon URL */
-        }
-        .cta-contact-1122 .email::before {
-            background-image: url('email-icon.png'); /* Replace with an email icon URL */
-        }
-        .cta-contact-1122 a {
-            color: #fff;
+        .footer-links a {
+            color: #212529;
             text-decoration: none;
-            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
         }
-        .cta-contact-1122 a:hover {
+        .footer-links a:hover {
             text-decoration: underline;
         }
-        @media (max-width: 768px) {
-            .cta-container-1234 {
-                grid-template-columns: 1fr;
-            }
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+        }
+        .social-icons a:hover {
+            opacity: 0.8;
+        }
+        .social-icons .facebook {
+            background-color: #3b5998;
+        }
+        .social-icons .twitter {
+            background-color: #55acee;
+        }
+        .social-icons .whatsapp {
+            background-color: #25d366;
+        }
+        .social-icons .google {
+            background-color: #dd4b39;
         }
     </style>
 </head>
 <body>
 
-<div class="cta-container-1234">
-    <div class="cta-text-5678">
-        <h2>Request a Callback</h2>
-        <p>Need more information or have specific questions? Fill out the form below, and we’ll get back to you shortly!</p>
+<footer class="py-4">
+    <div class="container">
+        <div class="row pt-4 mb-4 mb-lg-5">
+            <div class="col-12 col-lg-3 mb-4 mb-lg-0 d-flex flex-column align-items-start">
+                <div class="footer-logo">
+                    <img alt="Free Frontend Logo" src="./images/global/Shamots-Logo.png" class="img-fluid">
+                </div>
+                <p class="small text-muted mb-3">Sign up for our newsletter to get the latest updates on features and releases.</p>
+                <div class="input-group">
+                    <input class="form-control bg-light cta-input" placeholder="Email address" type="text">
+                    <button class="btn cta-button" type="button">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2"></div>
+            <div class="col-6 col-lg-2">
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Consultancy</a></li>
+                    <li><a href="#">Tech Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2">
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#">Printing & Cutting Machines</a></li>
+                    <li><a href="#">Braiding</a></li>
+                    <li><a href="#">Weaving Machines</a></li>
+                    <li><a href="#">Crochet Knitting Machines</a></li>
+                    <li><a href="#">Wrap Knitting Machines</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center">
+                <div class="social-icons">
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="google"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-top d-lg-none"></div>
+        <div class="d-block d-lg-flex justify-content-between py-3 py-lg-2">
+            <div class="small mb-2 mb-lg-0 text-muted">
+                © 2024 Shamots International. All rights reserved.
+            </div>
+            <div class="small">
+                <a class="d-block d-lg-inline text-muted ms-lg-2 mb-2 mb-lg-0" href="#">Privacy Policy</a>
+                <a class="d-block d-lg-inline text-muted ms-lg-2" href="#">Terms of Service</a>
+            </div>
+        </div>
     </div>
-    
-    <div class="cta-form-9101">
-        <input type="tel" placeholder="Enter your number" required>
-        <button type="submit">Send</button>
-    </div>
-    
-</div>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

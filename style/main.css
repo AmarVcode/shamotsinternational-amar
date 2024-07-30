@@ -907,7 +907,7 @@ body.slider-2024 {
   margin-bottom: 20px;
 }
 .testimonial-2024 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #333;
   line-height: 1.5;
   font-style: italic;
@@ -954,6 +954,10 @@ body.slider-2024 {
   }
   .testimonial-2024 div {
       width: 60%;
+  }
+
+  .testimonial-2024 p {
+    font-size: 1.5rem;
   }
 }
 @keyframes slide {
@@ -1072,4 +1076,74 @@ body.slider-2024 {
   .cta-container-1234 {
       grid-template-columns: 1fr;
   }
+  .cta-container-1234{
+    gap: 0px;
+    padding: 10px;
+  }
+
+  footer{
+    transform: scale(0.9);
+  }
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.footer-logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+.footer-logo img {
+  width: 100%;
+  height: auto;
+}
+.cta-input {
+  border-radius: 25px;
+  padding: 10px;
+}
+.cta-button {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.footer-links a {
+  color: #212529;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+.social-icons a:hover {
+  opacity: 0.8;
+}
+.social-icons .facebook {
+  background-color: #3b5998;
+}
+.social-icons .twitter {
+  background-color: #55acee;
+}
+.social-icons .whatsapp {
+  background-color: #25d366;
+}
+.social-icons .google {
+  background-color: #dd4b39;
 }
