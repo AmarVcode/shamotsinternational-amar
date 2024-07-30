@@ -476,44 +476,6 @@ $('.slider').each(function() {
 
 
 
-
-
-
-
-
-
-
-// script.js
-document.addEventListener("DOMContentLoaded", function() {
-    const carousel = document.querySelector('.testimonial-carousel');
-    const items = document.querySelectorAll('.testimonial-item');
-    const next = document.querySelector('.arrow-right');
-    const prev = document.querySelector('.arrow-left');
-    let index = 0;
-
-    function showSlide(i) {
-        carousel.style.transform = `translateX(${-i * 100}%)`;
-    }
-
-    next.addEventListener('click', () => {
-        index = (index + 1) % items.length;
-        showSlide(index);
-    });
-
-    prev.addEventListener('click', () => {
-        index = (index - 1 + items.length) % items.length;
-        showSlide(index);
-    });
-
-    setInterval(() => {
-        index = (index + 1) % items.length;
-        showSlide(index);
-    }, 7000);
-});
-
-
-
-
 //code for animate about us section
 
 var aboutAnimation = lottie.loadAnimation({
@@ -526,5 +488,72 @@ var aboutAnimation = lottie.loadAnimation({
         preserveAspectRatio: 'xMidYMid meet', // Adjust as needed to fit within the container
         progressiveLoad: true,
         hideOnTransparent: true
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//testimonial slider code
+let slideIndex = 0;
+const slides = document.querySelectorAll('.testimonial-2024');
+const dots = document.querySelectorAll('.dot-2024');
+
+const showSlide = (index) => {
+    if (index >= slides.length) {
+        slideIndex = 0;
+    } else if (index < 0) {
+        slideIndex = slides.length - 1;
+    } else {
+        slideIndex = index;
+    }
+
+    document.getElementById('testimonialSlider').style.transform = `translateX(-${slideIndex * 100}%)`;
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[slideIndex].classList.add('active');
+}
+
+const autoSlide = () => {
+    showSlide(slideIndex + 1);
+    autoSlideTimer = setTimeout(autoSlide, 5000);
+}
+
+let autoSlideTimer = setTimeout(autoSlide, 5000);
+
+const currentSlide = (index) => {
+    showSlide(index);
+    clearTimeout(autoSlideTimer);
+    autoSlideTimer = setTimeout(autoSlide, 5000);
+}
+
+// Pause sliding on hover
+document.querySelector('.slider-container-2024').addEventListener('mouseover', () => {
+    clearTimeout(autoSlideTimer);
+});
+
+document.querySelector('.slider-container-2024').addEventListener('mouseout', () => {
+    autoSlideTimer = setTimeout(autoSlide, 5000);
+});
+
+// Initial layout adjustment
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 768) {
+        document.querySelectorAll('.testimonial-2024').forEach(slide => {
+            slide.style.flexDirection = 'column';
+            slide.style.textAlign = 'center';
+        });
     }
 });

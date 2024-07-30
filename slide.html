@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Callback</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .cta-container-1234 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 40px auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transform: scale(0.95);
+        }
+        .cta-text-5678 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+        .cta-text-5678 h2 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .cta-text-5678 p {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .cta-form-9101 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+        }
+        .cta-form-9101 input {
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+        }
+        .cta-form-9101 button {
+            background: #fff;
+            color: #2575fc;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .cta-form-9101 button:hover {
+            background: #2575fc;
+            color: #fff;
+        }
+        .cta-contact-1122 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .cta-contact-1122 p {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #fff;
+        }
+        .cta-contact-1122 .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .cta-contact-1122 .contact-info span {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            color: #fff;
+        }
+        .cta-contact-1122 .contact-info span::before {
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .cta-contact-1122 .phone::before {
+            background-image: url('phone-icon.png'); /* Replace with a phone icon URL */
+        }
+        .cta-contact-1122 .email::before {
+            background-image: url('email-icon.png'); /* Replace with an email icon URL */
+        }
+        .cta-contact-1122 a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .cta-contact-1122 a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .cta-container-1234 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cta-container-1234">
+    <div class="cta-text-5678">
+        <h2>Request a Callback</h2>
+        <p>Need more information or have specific questions? Fill out the form below, and we’ll get back to you shortly!</p>
+    </div>
+    
+    <div class="cta-form-9101">
+        <input type="tel" placeholder="Enter your number" required>
+        <button type="submit">Send</button>
+    </div>
+    
+</div>
+
+</body>
+</html>

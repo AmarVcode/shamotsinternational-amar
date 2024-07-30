@@ -841,7 +841,6 @@ text-align: center;
 .my-customize-boot{
     border: 1px solid var(--primary-color);
     border-radius: 10px;
-    margin-top: -150px;
 }
 
 .my-customize-boot a{
@@ -856,6 +855,220 @@ text-align: center;
     height: 60px;
 }
 
+
 footer{
     margin-top: 100px;
+}
+body.slider-2024 {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.slider-container-2024 {
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.slider-2024 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+.testimonial-2024 {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff8f4;
+  background: linear-gradient(90deg,#ffd0b5,#fff8f4,#fff8f4);
+  border-radius: 10px;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+.testimonial-2024 img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.testimonial-2024 p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+  font-style: italic;
+}
+.testimonial-2024 h3 {
+  margin-top: 15px;
+  color: #e30b5d;
+}
+.testimonial-2024 h4 {
+  margin-top: 5px;
+  color: #717171;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.dots-2024 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dot-2024 {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot-2024.active {
+  background-color: #717171;
+}
+.slider-container-2024:hover .slider-2024 {
+  animation-play-state: paused;
+}
+@media (min-width: 768px) {
+  .testimonial-2024 {
+      flex-direction: row;
+      text-align: left;
+  }
+  .testimonial-2024 img {
+      width: 40%;
+      margin-right: 20px;
+      margin-bottom: 0;
+  }
+  .testimonial-2024 div {
+      width: 60%;
+  }
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
+#testimonial-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container-1234 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background: linear-gradient(135deg, #FF6500, #FFC100);
+  color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 1050px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transform: scale(0.95);
+}
+.cta-text-5678 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.cta-text-5678 h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cta-text-5678 p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.cta-form-9101 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+.cta-form-9101 input {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+}
+.cta-form-9101 button {
+  background: #fff;
+  color: #2575fc;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.cta-form-9101 button:hover {
+  background: #2575fc;
+  color: #fff;
+}
+.cta-contact-1122 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.cta-contact-1122 p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+.cta-contact-1122 .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cta-contact-1122 .contact-info span {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #fff;
+}
+.cta-contact-1122 .contact-info span::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cta-contact-1122 .phone::before {
+  background-image: url('phone-icon.png'); /* Replace with a phone icon URL */
+}
+.cta-contact-1122 .email::before {
+  background-image: url('email-icon.png'); /* Replace with an email icon URL */
+}
+.cta-contact-1122 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cta-contact-1122 a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .cta-container-1234 {
+      grid-template-columns: 1fr;
+  }
 }
